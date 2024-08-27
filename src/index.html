@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Chrome-like Browser</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div id="tabs">
+    <button id="newTabBtn"><span class="material-icons">add</span></button>
+</div>
+<div id="controls">
+    <button id="backBtn"><span class="material-icons">arrow_back</span></button>
+    <button id="forwardBtn"><span class="material-icons">arrow_forward</span></button>
+    <button id="reloadBtn"><span class="material-icons">refresh</span></button>
+    <button id="homeBtn"><span class="material-icons">home</span></button>
+    <input type="text" id="urlbar">
+    <button id="newWindowBtn"><span class="material-icons">open_in_new</span></button>
+</div>
+<div id="webviews-container"></div>
+<script src="renderer.js"></script>
+</body>
+</html>
